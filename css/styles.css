@@ -1,0 +1,40 @@
+body {
+	background: url("../images/bg-pattern-bottom-desktop.svg") no-repeat fixed
+			bottom,
+		url("../images/bg-pattern-top-desktop.svg") no-repeat fixed top;
+}
+
+h1 {
+	font-family: "Spartan";
+	font-weight: 700;
+	color: hsl(300, 43%, 22%);
+	padding: 0px;
+	margin: 0px;
+}
+
+.attribution {
+	font-size: 11px;
+	text-align: center;
+}
+
+.attribution a {
+	color: hsl(228, 45%, 44%);
+}
+
+.main-body {
+	margin: 6% 8% 6% 8%;
+}
+
+.main-wrapper {
+	width: 50%;
+}
+
+.main-wrapper-sub {
+	color: hsl(303, 10%, 53%);
+	margin-top: 5px;
+	width: 55%;
+	font-family: "Spartan";
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 20px;
+}

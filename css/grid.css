@@ -1,0 +1,85 @@
+.parent {
+	display: grid;
+	grid-template-columns: repeat(6, 1fr);
+	grid-template-rows: repeat(4, 1fr);
+	grid-column-gap: 0px;
+	grid-row-gap: 0px;
+}
+
+.div1 {
+	grid-area: 1 / 1 / 3 / 4;
+}
+.div2 {
+	grid-area: 1 / 4 / 3 / 7;
+}
+.div3 {
+	grid-area: 3 / 1 / 5 / 3;
+}
+.div4 {
+	grid-area: 3 / 3 / 5 / 5;
+}
+.div5 {
+	grid-area: 3 / 5 / 5 / 7;
+}
+
+.parent-card {
+	display: grid;
+	grid-template-columns: repeat(5, 1fr) 5fr;
+	grid-template-rows: 1fr;
+	grid-column-gap: 0px;
+	grid-row-gap: 0px;
+	margin: auto 10px;
+}
+
+.div1-card {
+	grid-area: 1 / 1 / 2 / 2;
+	align-self: center;
+}
+.div2-card {
+	grid-area: 1 / 2 / 2 / 3;
+	align-self: center;
+}
+.div3-card {
+	grid-area: 1 / 3 / 2 / 4;
+	align-self: center;
+}
+.div4-card {
+	grid-area: 1 / 4 / 2 / 5;
+	align-self: center;
+}
+.div5-card {
+	grid-area: 1 / 5 / 2 / 6;
+	align-self: center;
+}
+.div6-card {
+	grid-area: 1 / 6 / 2 / 7;
+	font-family: "Spartan";
+	font-weight: 700;
+	font-size: 12px;
+	color: hsl(300, 43%, 22%);
+	align-self: center;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.parent-main-card {
+	display: grid;
+	grid-template-columns: 1fr 2fr repeat(2, 1fr);
+	grid-template-rows: repeat(3, 1fr);
+	grid-column-gap: 0px;
+	grid-row-gap: 0px;
+}
+
+.div1-main-card {
+	grid-area: 1 / 1 / 3 / 2;
+}
+.div2-main-card {
+	grid-area: 1 / 2 / 2 / 5;
+}
+.div3-main-card {
+	grid-area: 2 / 2 / 3 / 5;
+}
+.div4-main-card {
+	grid-area: 3 / 1 / 4 / 5;
+}

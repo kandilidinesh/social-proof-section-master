@@ -1,0 +1,98 @@
+.property-card {
+	height: 30%;
+	width: 65%;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	flex-direction: column;
+	position: relative;
+	transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+	border-radius: 9px;
+	overflow: hidden;
+	box-shadow: 15px 15px 27px #e1e1e3, -15px -15px 27px #ffffff;
+	background-color: hsl(300, 24%, 96%);
+}
+.property-card-2 {
+	margin-left: 10%;
+	margin-top: 3%;
+	height: 30%;
+	width: 65%;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	flex-direction: column;
+	position: relative;
+	transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+	border-radius: 9px;
+	overflow: hidden;
+	box-shadow: 15px 15px 27px #e1e1e3, -15px -15px 27px #ffffff;
+	background-color: hsl(300, 24%, 96%);
+}
+
+.property-card-3 {
+	margin-left: 20%;
+	margin-top: 3%;
+	height: 30%;
+	width: 65%;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	flex-direction: column;
+	position: relative;
+	transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+	border-radius: 9px;
+	overflow: hidden;
+	box-shadow: 15px 15px 27px #e1e1e3, -15px -15px 27px #ffffff;
+	background-color: hsl(300, 24%, 96%);
+}
+
+.property-card-main-1 {
+    margin-top: 50px;
+    padding: 20px;
+	height: 90%;
+	width: 80%;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	flex-direction: column;
+	position: relative;
+	transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+	border-radius: 9px;
+	overflow: hidden;
+	box-shadow: 15px 15px 27px #e1e1e3, -15px -15px 27px #ffffff;
+	background: hsl(300, 43%, 22%);
+}
+
+.property-card-main-2 {
+    margin-top: 70px;
+    padding: 20px;
+	height: 90%;
+	width: 80%;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	flex-direction: column;
+	position: relative;
+	transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+	border-radius: 9px;
+	overflow: hidden;
+	box-shadow: 15px 15px 27px #e1e1e3, -15px -15px 27px #ffffff;
+	background: hsl(300, 43%, 22%);
+}
+
+.property-card-main-3 {
+    margin-top: 90px;
+    padding: 20px;
+	height: 90%;
+	width: 80%;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	flex-direction: column;
+	position: relative;
+	transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+	border-radius: 9px;
+	overflow: hidden;
+	box-shadow: 15px 15px 27px #e1e1e3, -15px -15px 27px #ffffff;
+	background: hsl(300, 43%, 22%);
+}
