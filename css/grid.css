@@ -21,10 +21,12 @@
 .div4 {
 	grid-area: 3 / 3 / 5 / 5;
 	height: 250px;
+	margin-top: 20px;
 }
 .div5 {
 	grid-area: 3 / 5 / 5 / 7;
 	height: 250px;
+	margin-top: 40px;
 }
 
 .parent-card {
@@ -59,7 +61,7 @@
 .div6-card {
 	grid-area: 1 / 6 / 2 / 7;
 	font-family: "Spartan";
-	font-weight: 700;
+	font-weight: bolder;
 	font-size: 12px;
 	color: hsl(300, 43%, 22%);
 	white-space: nowrap;
@@ -71,7 +73,6 @@
 .parent-main-card {
 	height: 250px;
 	display: grid;
-	margin-bottom: 25px;
 	grid-template-columns: 1fr 2fr repeat(2, 1fr);
 	grid-template-rows: repeat(3, 0.3fr);
 	grid-column-gap: 0px;
@@ -89,13 +90,18 @@
 	grid-area: 1 / 2 / 2 / 5;
 	align-self: self-end;
 	font-weight: 500;
+	font-size: 15px;
 }
 .div3-main-card {
 	grid-area: 2 / 2 / 3 / 5;
 	align-self: self-start;
 	color: hsl(333, 80%, 67%);
+	font-size: 15px;
 }
 .div4-main-card {
 	grid-area: 3 / 1 / 4 / 5;
-	align-self: center;
+	align-self: baseline;
+	color: hsl(300, 24%, 96%);
+	line-height: 25px;
+	font-size: 15px;
 }
