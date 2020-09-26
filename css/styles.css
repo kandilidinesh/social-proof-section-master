@@ -13,6 +13,7 @@ h1 {
 }
 
 .attribution {
+    font-family: 'Spartan';
 	font-size: 11px;
 	text-align: center;
 }
@@ -22,7 +23,7 @@ h1 {
 }
 
 .main-body {
-	margin: 6% 8% 6% 8%;
+    margin: 6% 8% 6% 8%;
 }
 
 .main-wrapper {
@@ -37,4 +38,39 @@ h1 {
 	font-weight: 400;
 	font-size: 12px;
 	line-height: 20px;
+}
+
+.circletag-1 {
+    display: block;
+    width: 40px;
+    height: 40px;
+    background: #E6E7ED;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    background-image: url('../images/image-colton.jpg');
+    background-position:50% 50%;
+    background-repeat:no-repeat;    
+}
+
+.circletag-2 {
+    display: block;
+    width: 40px;
+    height: 40px;
+    background: #E6E7ED;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    background-image: url('../images/image-irene.jpg');
+    background-position:50% 50%;
+    background-repeat:no-repeat;    
+}
+
+.circletag-3 {
+    display: block;
+    width: 40px;
+    height: 40px;
+    background: #E6E7ED;
+    -webkit-border-radius: 20px;
+    background-image: url('../images/image-anne.jpg');
+    background-position:50% 50%;
+    background-repeat:no-repeat;    
 }
